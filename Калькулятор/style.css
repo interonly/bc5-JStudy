@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+    justify-content: center;
+    align-items: center;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Space Mono', serif;
+    background-color: #36BA98;
+}
+
+.calculator {
+    background-color: #E9C46A;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+}
+
+input {
+    height: 50px;
+    width: calc(100% - 22px);
+    font-size: 30px;
+    background-color: #F4A261;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    border-style: none;
+    padding: 0 10px;
+    font-family: 'Space Mono', serif;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.43)
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #E76F51;
+    color: white;
+    font-size: 22px;
+}
